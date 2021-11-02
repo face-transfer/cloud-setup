@@ -18,3 +18,4 @@ def create_bucket(project, name, versioning_enabled=True):
 create_bucket("face-transfer", "origin-images")
 create_bucket("face-transfer", "input-images")
 create_bucket("face-transfer", "output-images")
+create_bucket("face-transfer", "models")
